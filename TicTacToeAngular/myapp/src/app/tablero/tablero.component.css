@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+}
+  
+app-cuadro {
+    margin: 5px;
+    margin-left: 5px;
+    height: 100px;
+}
+
+.boton{
+    border-color: red;
+    color: #fff;
+    background-color: red;
+    padding: 8px;
+}

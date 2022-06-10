@@ -1,0 +1,12 @@
+<h1>Tic Tac Toe (Angular)</h1>
+<h1>Turno: {{ player }} </h1>
+
+<button class="boton" (click)="newGame()">Reiniciar</button><br /><br />
+
+<main>
+    <app-cuadro *ngFor="let val of squares; let i = index" [value]="val" (click)="makeMove(i)">
+
+    </app-cuadro>
+
+    <app-puntos [puntosO]="puntosO" [puntosX]="puntosX"></app-puntos>
+</main>

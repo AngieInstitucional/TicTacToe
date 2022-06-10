@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #22333b;
+}
+
+.boton{
+  border-color: red;
+  color: #fff;
+  background-color: red;
+  padding: 8px;
+}
+
+.text{
+  color: #fff;
+}
